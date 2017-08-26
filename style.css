@@ -24,7 +24,6 @@ ul{
   padding: 2em 2em 4em 2em;
   flex: 1;
   color: #5cd0fa;
-
 }
 .main-heading, .description{
   text-align: center;
@@ -82,10 +81,10 @@ ul{
 }
 .delete:hover{
   cursor: pointer;
-  background-color: #4bc0e9;  
+  background-color: #4bc0e9;
 }
 .book-registration{
-  margin: 0 auto 5em auto;
+  margin: 5em auto 5em auto;
 }
 .book-registration input[type="text"]{
   width: 23em;
@@ -107,4 +106,14 @@ ul{
 .book-registration .add-book:hover{
   cursor: pointer;
   background-color: #4bc0e9;
+}
+
+.main-footer{
+  margin-top: 1em;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.5em 0.5em 1em 0.5em;
+  flex: 1;
+  color: #0b2631;
 }
