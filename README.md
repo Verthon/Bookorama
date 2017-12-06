@@ -1,4 +1,4 @@
 # Bookorama
-New simple Javascript library
+New simple library
 
 site is published at https://verthon.github.io/Bookorama/
