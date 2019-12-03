@@ -2,7 +2,7 @@ body{
   margin: 0;
   font-family: 'Lato', sans-serif;
   line-height: 1.8em;
-  font-size: 10px;
+  font-size: 16px;
   color: #444;
   box-sizing: border-box;
 }
@@ -12,17 +12,17 @@ ul{
 }
 .wrapper{
   display: flex;
-  width: 70em;
+  width: 50%;
   justify-content: center;
   margin: 5em auto;
-  box-shadow: 0 1.3em 2.6em rgba(0,0,0,0.25), 0 0.5em 0.5em rgba(0,0,0,0.23);
+  box-shadow: 0 0.13rem 0.16rem rgba(0,0,0,0.25), 0 0.15rem 0.15rem rgba(0,0,0,0.23);
   flex-flow: column;
   flex-wrap: wrap;
 }
 .main-header{
   display: block;
   background-color: #0b2631;
-  padding: 2em 2em 4em 2em;
+  padding: 1rem 1rem 2rem 1rem;
   flex: 1;
   color: #5cd0fa;
 }
@@ -30,14 +30,14 @@ ul{
   text-align: center;
 }
 .main-heading{
-  font-size: 4em;
+  font-size: 3rem;
 }
 .description{
-  font-size: 2em;
+  font-size: 1.75rrem;
   color: #f3f3f3;
 }
 #search{
-  width: 25em;
+  width: 25rem;
   height: 2.2em;
   border: 0.08em solid #dcd;
   border-radius: 0.2em;
@@ -54,7 +54,7 @@ ul{
 .section-title{
   display: block;
   flex-flow: column;
-  font-size: 3.2em;
+  font-size: 2rem;
   font-weight: 400;
   color: #0b2631;
   text-indent: 1em;
@@ -62,28 +62,29 @@ ul{
 .book{
   display: flex;
   justify-content: space-between;
-  font-size: 1.7em;
+  font-size: 1.5rem;
   border-left: 0.2em solid #0b2631;
-  text-indent: 1em;
-  height: 3em;
+  height: 2rem;
   align-items: center;
   margin: 1em;
+
+  &__data {
+    text-indent: 1em;
+  }
 }
 .book-name{
 
 }
-.delete{
+.button{
   border: 0.05em solid  #4ab0d6;
   background-color: #5cd0fa;
-  border-radius: 0.2em;
-  padding: 0.35em;
+  border-radius: 0.1em;
+  padding: 0.25rem 1rem;
   margin: 0;
   color: #0b2631;
+  cursor: pointer
 }
-.delete:hover{
-  cursor: pointer;
-  background-color: #4bc0e9;
-}
+
 .book-registration{
   margin: 5em auto 5em auto;
 }

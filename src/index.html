@@ -20,8 +20,14 @@
     <section class="main-content">
       <h2 class="section-title">Books to Read</h2>
       <ul id="book-list">
-        <li class="book"><span class="book-name">Example the Long</span> <button class="delete">Delete</button></li>
-        <li class="book"><span class="book-name">Short Example!</span> <button class="delete">Delete</button></li>
+        <li class="book"><span class="book__data">Title</span><span class="book__data">Author</span><span
+            class="book__data">Number of pages</span><span class="book__data">Read?</span></li>
+        <li class="book"><span class="book__data">The Odyssey</span><span class="book__data">Homer</span><span
+            class="book__data">541</span><span class="book__data">true</span><button
+            class="button button__delete">Delete</button></li>
+        <li class="book"><span class="book__data">Oedipus Rex</span><span class="book__data">Sophocles</span><span
+            class="book__data">75</span><span class="book__data">false</span><button
+            class="button button__delete">Delete</button></li>
       </ul>
     </section>
     <button id='show-modal' data-target="modal1" class='add-book modal-trigger'>Add book</button>
@@ -43,7 +49,7 @@
               <span>Yes</span>
             </label>
           </div>
-          <button class="add-book add-book--action btn-close" type="submit">Add book</button>
+          <button class="add-book add-book--action modal-close" type="submit">Add book</button>
         </form>
       </div>
       <div class="modal-footer">

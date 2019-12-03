@@ -12,6 +12,7 @@ class Book {
 
   render = () => {
     const li = document.createElement('li');
+    li.id = this.id
     return generateBook(li, this.title, this.author, this.pages, this.read)
   }
  }

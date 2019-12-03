@@ -8,6 +8,7 @@ App is published at https://verthon.github.io/Bookorama/
 
 ## Tech 
 - JavaScript (ES6)
+- Materialize.css
 - Sass
 - Webpack
 - HTML5
