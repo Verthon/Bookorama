@@ -21,7 +21,9 @@ export const generateContent = (...args) => {
 }
 
 export const generateBook = (li, ...content) => {
-  generateContent('Jack Boe ', ' Under the bridge ', 120, true).forEach(elem => {
+  generateContent(...content).forEach(elem => {
     li.appendChild(elem)
   })
+  
+  return li
 }

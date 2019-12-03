@@ -1,5 +1,4 @@
 import uuidv4 from 'uuid/v4'
-import { list } from './dom'
 import { generateBook } from './helpers'
 
 class Book {
@@ -13,7 +12,7 @@ class Book {
 
   render = () => {
     const li = document.createElement('li');
-    generateBook(li, this.title, this.author, this.pages, this.read)
+    return generateBook(li, this.title, this.author, this.pages, this.read)
   }
  }
 
